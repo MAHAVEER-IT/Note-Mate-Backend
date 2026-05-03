@@ -1,0 +1,23 @@
+Auth Routes (/api/auth):
+POST /register
+POST /login
+
+Note Routes (/api/notes):
+GET /
+POST /
+PUT /:id
+DELETE /:id
+PUT /:id/archive
+PUT /:id/unarchive
+PUT /:id/reminder
+
+Sticky Note Routes (/api/sticky-notes):
+POST /
+GET /
+PUT /:id
+DELETE /:id
+
+AI Schedule Routes (/api/ai-schedules):
+POST /
+GET /
+PUT /:id
